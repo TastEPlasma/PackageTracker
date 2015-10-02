@@ -1,1 +1,6 @@
 c:\users\johnsnow\documents\visual studio 2013\Projects\PackageTracker\PackageTracker\bin\Debug\PackageTracker.exe.config
+C:\Users\JohnSnow\documents\visual studio 2013\Projects\PackageTracker\PackageTracker\obj\Debug\PackageTracker.csprojResolveAssemblyReference.cache
+C:\Users\JohnSnow\documents\visual studio 2013\Projects\PackageTracker\PackageTracker\bin\Debug\PackageTracker.exe
+C:\Users\JohnSnow\documents\visual studio 2013\Projects\PackageTracker\PackageTracker\bin\Debug\PackageTracker.pdb
+C:\Users\JohnSnow\documents\visual studio 2013\Projects\PackageTracker\PackageTracker\obj\Debug\PackageTracker.exe
+C:\Users\JohnSnow\documents\visual studio 2013\Projects\PackageTracker\PackageTracker\obj\Debug\PackageTracker.pdb

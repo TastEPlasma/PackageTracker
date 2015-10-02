@@ -9,5 +9,6 @@ namespace PackageTracker
     interface IDisplay
     {
         //Outputs data in client viewable form
+        void OutputToConsole(PackageLocation CurrentPackage);
     }
 }

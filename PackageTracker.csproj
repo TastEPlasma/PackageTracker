@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClientInteractionInterface.cs" />
+    <Compile Include="Display.cs" />
     <Compile Include="DisplayInterface.cs" />
+    <Compile Include="LocalData.cs" />
     <Compile Include="LocalDataInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
