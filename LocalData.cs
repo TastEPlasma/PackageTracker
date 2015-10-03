@@ -9,6 +9,7 @@ namespace PackageTracker
     class LocalData : ILocalDataAccess
     {
         private List<PackageLocation> packagelist;
+        private PackageLocation packageNotFound;
 
         public LocalData()
         {
@@ -26,16 +27,16 @@ namespace PackageTracker
 
         private PackageLocation GetPackageByTrackingNumber(string TrackingNumber)
         {
-            foreach(PackageLocation locpack in packagelist)
+            foreach(PackageLocation locationOfPackage in packagelist)
             {
-                if(locpack.TrackingNumber == TrackingNumber)
+                if (locationOfPackage.TrackingNumber == TrackingNumber)
                 {
-                    return locpack;
+                    return locationOfPackage;
                 }
             }
 
 
-            return new PackageLocation();
+            return packageNotFound;
         }
 
 
@@ -56,6 +57,11 @@ namespace PackageTracker
             locpack.PackageState = StateOfPackage.NotShipped;
 
             packagelist.Add(locpack);
+
+            packageNotFound.TrackingNumber = "Not Found";
+            packageNotFound.ShippingCompany = "Not Found";
+            packageNotFound.Location = "Not Found";
+            packageNotFound.PackageState = StateOfPackage.NotFound;
         }
 
     }
